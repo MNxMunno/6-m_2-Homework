@@ -63,7 +63,7 @@ const Contact = () => {
                   readOnly
                   name="note"
                   id="note"
-                  cols="72"
+                  cols="30"
                   rows="10"
                 ></textarea>
               </div>
