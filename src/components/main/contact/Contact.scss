@@ -55,7 +55,7 @@
         }
       }
       .line {
-        width: 486px;
+        max-width: 486px;
         height: 1px;
         background: #dcddeb;
         margin: 38px 0 55px;
@@ -69,6 +69,7 @@
         line-height: 36.008px; /* 128.6% */
       }
       .text {
+        max-width: 445px;
         padding: 8px 0 60px;
 
         color: #6e7191;
@@ -166,11 +167,21 @@
       }
     }
   }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1198px) {
+    margin-top: 10px;
     .cards {
       justify-content: center;
       .card2 {
         margin-top: 150px;
+      }
+    }
+  }
+  @media only screen and (max-width: 555px) {
+    .cards {
+      .card {
+        .call {
+          flex-direction: column;
+        }
       }
     }
   }
