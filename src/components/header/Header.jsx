@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container">
         <nav>
           <div className="nav_items">
-            <div className="nav-item">
+            <div className="nav-item nav-item1">
               <a href="#" className="logo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

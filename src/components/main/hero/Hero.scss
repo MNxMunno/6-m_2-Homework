@@ -90,4 +90,29 @@
       }
     }
   }
+  @media only screen and (max-width: 581px) {
+    .hero-cards {
+      .card {
+        span {
+          display: block;
+          .call-style {
+            padding-top: 25px;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 397px) {
+    .hero-cards {
+      .card {
+        span {
+          .call-style {
+            padding-top: 25px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
