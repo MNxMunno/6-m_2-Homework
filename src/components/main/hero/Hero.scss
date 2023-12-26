@@ -1,0 +1,93 @@
+.hero {
+  padding-top: 20px;
+  .hero-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    .card {
+      h1 {
+        max-width: 518px;
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 73.984px; /* 108.8% */
+        padding-top: 150px;
+      }
+      p {
+        max-width: 591px;
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+        padding: 22px 0 40px;
+      }
+      .btn {
+        border-radius: 14px;
+        background: #0075ff;
+        color: #fff;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 112.5% */
+        padding: 17px 24px 19px 24px;
+        transition: 0.4s;
+
+        &:hover {
+          background: #0162d1;
+        }
+      }
+      span {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        .call-style {
+          p {
+            color: #6e7191;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 112.5% */
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            padding: 0px 0px 4px 0px;
+          }
+          .tel {
+            color: #211f54;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36.008px; /* 128.6% */
+          }
+        }
+      }
+    }
+    .card-img {
+      max-width: 620px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 999px) {
+    .hero-cards {
+      margin-top: -150px;
+      .card {
+        h1 {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
