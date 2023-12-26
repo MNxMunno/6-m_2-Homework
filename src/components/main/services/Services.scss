@@ -1,0 +1,107 @@
+.services {
+  padding-top: 197px;
+  padding-bottom: 147px;
+  .services-cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 29px 0;
+    h4 {
+      color: #211f54;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 57.984px; /* 120.8% */
+    }
+    .btn {
+      border-radius: 14px;
+      border: 1px solid #eff0f6;
+      background: #fff;
+      box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+      color: #211f54;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19.998px; /* 111.1% */
+      padding: 17px 24px 19px 24px;
+      transition: 0.4s;
+
+      &:hover {
+        background: #0075ff;
+        color: #fff;
+      }
+    }
+  }
+  .services-cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    flex-wrap: wrap;
+    gap: 15px;
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 49px 28px 29px;
+      height: 494px;
+      transition: 0.5s;
+
+      border-radius: 16px;
+      border: 1px solid #eff0f6;
+      background: #fff;
+      box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+      h5 {
+        color: #211f54;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34.008px; /* 141.7% */
+        padding: 24px 0 13px;
+      }
+
+      p {
+        max-width: 312px;
+        color: #6e7191;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+      }
+
+      &:hover {
+        background: #211f54;
+        h5 {
+          color: #fff;
+        }
+        p {
+          color: #c9cae1;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 570px) {
+    .services-cards1 {
+      h4 {
+        font-size: 32px;
+      }
+    }
+  }
+  @media only screen and (max-width: 434px) {
+    .services-cards1 {
+      display: block;
+      h4 {
+        padding-bottom: 32px;
+      }
+    }
+  }
+}

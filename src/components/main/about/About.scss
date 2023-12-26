@@ -1,0 +1,97 @@
+.about {
+  .about-content {
+    h2 {
+      color: #211f54;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 57.984px; /* 120.8% */
+    }
+    p {
+      max-width: 648px;
+      margin: auto;
+      color: #6e7191;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30.006px; /* 142.886% */
+      padding: 21px 0 58px;
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .card {
+        width: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h3 {
+          color: #211f54;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 36.008px; /* 128.6% */
+          padding-top: 39px;
+        }
+        p {
+          max-width: 412px;
+          color: #6e7191;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30.006px; /* 142.886% */
+        }
+      }
+    }
+
+    .btns {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      flex-wrap: wrap;
+      .btn {
+        border-radius: 14px;
+        border: 1px solid #eff0f6;
+        background: #fff;
+        box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+        color: #211f54;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.998px; /* 111.1% */
+        padding: 17px 24px 19px 24px;
+        transition: 0.4s;
+
+        &:hover {
+          background: #0075ff;
+          color: #fff;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 555px) {
+    .about-content {
+      h2 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
