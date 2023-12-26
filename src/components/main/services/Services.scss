@@ -79,7 +79,9 @@
       }
 
       &:hover {
+        border: 1px solid #211f54;
         background: #211f54;
+        box-shadow: 3px 3px 15px 0px rgba(28, 28, 87, 0.9);
         h5 {
           color: #fff;
         }

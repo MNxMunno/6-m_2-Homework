@@ -12,6 +12,9 @@ import about3 from "./images/about-3.svg";
 import our1 from "./images/our-1.png";
 import our2 from "./images/our-2.png";
 import our3 from "./images/our-3.png";
+import follow from "./images/follow.svg";
+import articles1 from "./images/articles-1.png";
+import articles2 from "./images/articles-2.png";
 
 export {
   Images,
@@ -25,4 +28,7 @@ export {
   our1,
   our2,
   our3,
+  follow,
+  articles1,
+  articles2,
 };
