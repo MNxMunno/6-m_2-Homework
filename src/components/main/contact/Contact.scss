@@ -1,0 +1,177 @@
+.contact {
+  margin-top: 394px;
+  padding: 131px 0 111px;
+  background: #f7f9fc;
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    .card {
+      h1 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px; /* 120.8% */
+      }
+
+      p {
+        max-width: 484px;
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+        padding: 32px 0;
+      }
+      .call {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .texts {
+          p {
+            color: #6e7191;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 112.5% */
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+          }
+          b {
+            color: #211f54;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36.008px; /* 128.6% */
+          }
+        }
+      }
+      .line {
+        width: 486px;
+        height: 1px;
+        background: #dcddeb;
+        margin: 38px 0 55px;
+      }
+      h2 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36.008px; /* 128.6% */
+      }
+      .text {
+        padding: 8px 0 60px;
+
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+      }
+      .btn {
+        border-radius: 14px;
+        border: 1px solid #eff0f6;
+        background: #fff;
+        box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+
+        //   style
+
+        color: #211f54;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19.998px; /* 111.1% */
+        padding: 26px 39px 27px 38px;
+        transition: 0.5s;
+
+        &:hover {
+          background: #0075ff;
+          color: #fff;
+        }
+      }
+    }
+    .card2 {
+      form {
+        max-width: 673px;
+        border-radius: 16px;
+        border: 1px solid #eff0f6;
+        background: #fff;
+        padding: 85px 30px;
+        box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        flex-wrap: wrap;
+
+        button {
+          border-radius: 14px;
+          background: #0075ff;
+          padding: 26px 20px;
+          color: #fff;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 19.998px; /* 111.1% */
+          border: none;
+        }
+        .form {
+          flex-basis: 40%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          input {
+            outline: none;
+            width: 259px;
+            height: 72px;
+            border-radius: 16px;
+            border: 1px solid #eff0f6;
+            background: #fff;
+            font-size: 16px;
+            padding-left: 25px;
+            box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+          }
+          textarea {
+            resize: none;
+
+            border-radius: 22px;
+            border: 1px solid #eff0f6;
+            background: #fff;
+            box-shadow: 0px 2px 7px 0px rgba(20, 20, 43, 0.08);
+          }
+          label {
+            color: #211f54;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30.006px; /* 166.7% */
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .cards {
+      justify-content: center;
+      .card2 {
+        margin-top: 150px;
+      }
+    }
+  }
+}
